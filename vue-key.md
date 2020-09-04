@@ -1,5 +1,4 @@
-#### 关于vue
-1. [key的用处](https://cn.vuejs.org/v2/api/#key)
+[vue中key的用处](https://cn.vuejs.org/v2/api/#key)
 
     a.主要用在vue的虚拟DOM算法，处理新旧VNodes。在使用key时，它会基于key的变化重新排列元素的顺序，并且移除key不存在的元素  
 
@@ -19,9 +18,10 @@
      1. 完整的触发组件的生命周期的钩子  
 
      2. 触发过渡  
-     
+
     ```
         <transition>
             <span :key="text">{{ text }}</span>
         </transition>
     ```
+    当 *text* 发生改变时，*<span>*总是会被替换而不是被修改，因此会触发过渡

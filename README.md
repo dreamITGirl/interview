@@ -3,6 +3,6 @@
 [toc]
 ### 目录
 
-1. [vue中的key](/Users/liyaru/Project/selfProject/interview)
+1. [vue中的key](https://gitee.com/bllx_admin/interview/blob/master/vue-key.md)
 
 
